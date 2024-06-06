@@ -1,0 +1,13 @@
+<section id="competences">
+        <marquee><h2>Compétences</h2></marquee>
+        <ul class="competences">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>PHP</li>
+            <li>Gestion de projet</li>
+            <li>marketing digital</li>
+            <li>Création de site</li>
+            <li>Design</li>
+        </ul>
+    </section>
