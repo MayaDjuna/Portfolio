@@ -9,18 +9,9 @@ header{
     background-color:red;
     color: white;
 }
-ul{
-    display: flex;  
-}
-li{
-    margin-right: 10vh;
-    list-style: none;
-    font-weight: bold;
-}
-li,a{
-    text-decoration: none;
-    color: white;
-    font-size: 25px; 
+header h1{
+    margin-left: 150px;
+    padding: 13px;
 }
 li a:hover{
     color: blue;
@@ -28,8 +19,19 @@ li a:hover{
 .didi{
     width: 10vh;
 }
-.dingue{
-    color: red;
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-right: 20px;
+    padding: 15px;
+    text-align: right;
+    width: 400px;
+}
+li,a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;  
 }
 .pic::before{
    content: "";
@@ -66,6 +68,31 @@ li a:hover{
     color: white;
     font-size: 25px;
 }
+.com{
+    background-color: red;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+.call{
+    background-color: red;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+.call-me{
+    font-size: 25px;
+}
+.illustration img {
+    width: 320px;
+    margin-right: 12px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 0 5px rgb(200, 0, 0);
+}
+.illustration img:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 50px rgb(300, 0, 0);
+}
 .paragraphe{
     font-size: 25px;
 }
@@ -73,11 +100,15 @@ li a:hover{
     display: flex;
     justify-content: space-around;
 }
+    
 .bloc1,.bloc2,.bloc3{
     border: 2px solid black;
     background-color: red;
     color: white;
     text-align: center;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 16px rgb(108, 96, 96);
 }
 .bloc div{
     -webkit-transform: scale(1);
@@ -140,6 +171,9 @@ form label {
     display: block;
     margin-top: 5px;
 }
+label{
+    margin-right: 500px;
+}
 form input, form textarea, form button {
     width: 40%;
     padding: 10px;
@@ -175,14 +209,15 @@ footer {
   .lien-icone:hover {
     opacity: 0.5;
   }
-  #contact{
-    justify-content: center;
-  }
+  
   section ul{
     background-color: red;
-    color: white;
+    color: rgb(255, 255, 255);
   }
-  #contact{
+  #Contact{
     justify-content: center;
     text-align: center;
+  }
+  .img{
+    width: 300px;
   }
